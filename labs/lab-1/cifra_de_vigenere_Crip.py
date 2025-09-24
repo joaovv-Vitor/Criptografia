@@ -24,19 +24,20 @@
 import base64
 
 def criptar(texto_claro: str, chave: str) -> str:
+    texto_bytes = texto_claro.encode("utf-8")  
+    chave_bytes = chave.encode("utf-8")
+
     texto_cifrado = []
-    for i, c in enumerate(texto_claro):
-        p = ord(c)
-        k = ord(chave[i % len(chave)])
-        enc = (p + k) % 256
+    for i, b in enumerate(texto_bytes):
+        k = chave_bytes[i % len(chave_bytes)]
+        enc = (b + k) % 256
         texto_cifrado.append(enc)
 
     texto_cifrado_bytes = bytes(texto_cifrado)
-    return base64.b64encode(texto_cifrado_bytes).decode()
+    return base64.b64encode(texto_cifrado_bytes).decode("utf-8")
 
 
 input_texto_claro = input("Digite o texto a ser cifrado: ")
-input_chave = input("Digite a chave de criptografia: ")                                 
+input_chave = input("Digite a chave de criptografia: ")
 
 print("Texto cifrado:", criptar(input_texto_claro, input_chave))
-

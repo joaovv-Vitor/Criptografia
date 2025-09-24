@@ -2,31 +2,29 @@ Casos de Teste para a Cifra de Vigenère:
 
 1. Chave maior que o texto Claro
 
-    texto claro: Wave
-    chave: Musica Brasileira
-    texto cifrado: ¤ÖéÎ
+    texto claro: "Wave"
+    chave: "Musica Brasileira"
+    texto cifrado: "pNbpzg=="
 
-2. texto meio com uma chave pequena
-    texto claro: 
-    chave: 
-    texto cifrado: 
+2. texto com assentos
+    texto claro: "O sistema de câmera Pro definitivo com câmeras Fusion traseiras de 48 MP. E a nova câmera frontal Center Stage."
+    chave: "iphone 17"
+    texto cifrado: ""
 
 3. texto longo
-    texto claro: Assim que o dia amanheceu Lá no mar alto da paixão Dava pra ver o tempo ruir Cadê você? Que solidão Esquecera de mim Enfim, de tudo o que há na terra Não há nada em lugar nenhum Que vá crescer sem você chegar Longe de ti tudo parou Ninguém sabe o que eu sofri Amar é um deserto e seus temores Vida que vai na sela dessas dores Não sabe voltar, me dá teu calor Vem me fazer feliz porque eu te amo Você deságua em mim, e eu, oceano E esqueço que amar é quase uma dor Só sei viver se for por você Enfim, de tudo o que há na terra Não há nada em lugar nenhum Que vá crescer sem você chegar Longe de ti tudo parou Ninguém sabe o que eu sofri Amar é um deserto e seus temores Vida que vai na sela dessas dores Não sabe voltar, me dá teu calor Vem me fazer feliz porque eu te amo Você deságua em mim, e eu, oceano E esqueço que amar é quase uma dor Só sei viver se for por você
-    chave: Oceano
-    texto cifrado: ÖØÊÛÀØÊÝ³ÌÆÏÜ°ÑÍÆÑÔÄ±BÝ¾ÒÂà°ÏÙÐÓ°ÕÂ×ç2Ò¥Ïå°ÕÓÏÅÈ×ÝÃÈÒÑÝÁØÎÓ²°ÇOäÞ²M¤¿ä´ØÐÚØ³FÔ³âÀØÊÄÓá°ÉÆÜ¸Ð¦ÜÕ¸ÐÒÔo×ÚÅÝ¾ÖÖÓ·DÏÏÃÈ×ÓÏFÔÖPoÑÆÅÏ´ÐÍãÖ°ÕÏÓÝ·ØÒ¿ä´ÛBÒÁÈØÄÓáoÖÊÎå¾ÆOÑ×´ÊÆÓ»¾ÑÌÆÓ´ÙÊãÄÇÔÞÐÁÒÚ¼Ø½ÊÚJÛÂÄÇÆÞoÔÚÆÔÄØÐÔá¸¦ÎÏáoLÖÛ³ÈØÆàã¾ÊáÔÄÖÕÓÜ¾ÕÊÔÅ¸ÇÆßä´ÛÂ×½ÄÔÓÛ°ÉÆáâ°ÖÅÝá´Ö¯QÞoÖÆÃÓÅÒÑÕÏá{ÒÆÓ0ÙÆã²ÄÑÐà¥ÈÒÛÔoÉÆÛÓáoÉÊÍ×éoÓÔÓßä´ÊÖã´ÆÎÝ¥ÒÈKÓ´ÖFÈãÐoÈÒÛØ¼ÆÔÄÐÑÔ°ÑÔ³´ÖÖÖÓV¾ÖÖÓ°ÐÆÓXoÔÚÂáÔoØÒÂÓ¾Õ´aÂÈÎäØÅÈ×áÔoÉÔÓß¾Õ×ÝÒ9ªÏÔØ¼ÅÓÃØÉÐÞoÔÚÆ×0ÓÂã´Õ×Â½2ÒÉO½ÄÉÂÔ¼ÑÖÕÐÁÓÆÜ×ÄÐ²ãÔoÙFÑá´ÖÈÆàÂÈÒäÞ²MÄÖÔ¶Ä×ºÞ½ÊÊÒÔo×Îâä³ÒÑÏá¾Ø¯×Ý¶ØNÎâ°ÅÊÝÀØÊÓäoÖÔÇàØo¤ÒÂà8ÚÎÓ´ÖÊÓâÞoÈÔÓäÂÙÆÛÞÁÈØÄØ³ÄÒãÔoÙÆÊÝ°ØÆÚÐoÇÊÔáÐÂÉÐàÔÂ³DÝÂÄÇÆå¾ÏÙÂàoÐÊÒPo×ÊÖÒ°ÏÔÓÅ´ÐÎÓµÄßÆàµÈÑÊè¿Ò×ÒãÔoÈÚâÔoÄÒÐÅ¾ÆOÒÔÂDÌÖÏ´ÐÎ×Ü{ÊÓä{ÔÄÓÐ½Ò¦ÔÂÔÚÆUÞoÔÚÆÐ¼Ä×WÀØÆÔÓÄÐÆÒÞÁ¸Tâ´Ì××å´ÕÔÓµÒ×ÞÞÁÛÐÑY
+    texto claro: "Just a steel town girl on a Saturday night Lookin' for the fight of her life In the real-time world no one sees her at all They all say she's crazy Locking rhythms to the beat of her heart Changing movement into light She has danced into the danger zone When the dancer becomes the dance It can cut you like a knife, if the gift becomes the fire On a wire between will and what will be She's a maniac, maniac on the floor And she's dancing like she's never danced before She's a maniac, maniac on the floor And she's dancing like she's never danced before On the ice-blue line of insanity is a place most never see It's a hard-won place of mystery touch it, but can't hold it You work all your life for that Moment in time, it could come or pass you by It's a push-shove world, but there's always a chance If the hunger stays the night There's a cold kinetic heat, struggling, stretching for the beat Never stopping with her head against the wind She's a maniac, maniac, I sure know And she's dancing like she's never danced before She's a maniac, maniac, I sure know And she's dancing like she's never danced before It can cut you like a knife, if the gift becomes the fire On a wire between will and what will be She's a maniac, maniac, I sure know (I sure know) And she's dancing like she's never danced before She's a maniac, maniac, I sure know And she's dancing like she's never danced before Maniac, maniac, I sure know And she's dancing like she's never danced before She's a maniac, maniac, I sure know (I sure know) And she's dancing like she's never danced before"
+    chave: "maniac michael sembello"
+    texto cifrado: "t9bh3YHEQODdyM3NheCP6tONyc7e2I/cz47KgbaB4d7VzMLejI7czNXWhbjb3tjK3JCByY/fidfQxoXSidrN4YLU0ozX0tOO1crJhY2y0YjVzdFA5crOzpLg1dzSgeXY08+EjdfSiNDT0UDmytLVhdTR4Y3C4onCz4yNvcvN2oXNjN+F4MPejN/X0ojhicTVgefig7TQyNeJ4cyN1M3l4Nfa1I7d0IOU1c6DysbG4EDiy43Kyt6M19LC4N2BpojO18rRz8yMjeLb0s/K2uCP1s/i2IHPidTR14i0zdFA28bggsnN2tLSxY7Sz9ePjd3LzYHJzY7ayt+C39va1I241s7Pg5TVzoPMwtPPheWFz8fI29nU4IHi0caDhM7Xxs2BruBA1sbbgsjh4I/m0OOJzcyL0onEiMzT1YbYkY3Ly4zg19KB1dLH10DPzsbXzsrfQOfN0oLL1d7UjbDcicKDl9bbyIjDyuCX2MrbgtzV2NuNwtzNgdqIzt2D38rR2EDVyo21zdGT4o3CjtbC0YnOzI+IzsbaidTIjdHTjODX0oHU1dDSko2q0cyB2NSFmtiNxsbaz9jbyI7Vys6FjdzLzYjYjI7Y29LUhdDN3dDG0onDyIbc28iItM3RR+aFzoLSzdrYzsSaic7EjtbKxojQ04yU28qNyNHb2+GNotzNgdaI0pDWiMXG2oPc09SC0dXX1I3U1s6I1kDbztnN04XQgeHI0saFztHV3NPTibDRQOHRyIjKyNFN1dHix4XY1d3Sgd3PgcyO4MrR0dXejInmhc6C1djN0tKB29jU10DbztnN04XfhdiFttaM34zQjcnP28WQl9zXg9jNxs+Fk9TTgtLl3+PS0+eJ1dKV0NGD0dWRjILo2Y3FxtqT443J3dXFg4nhibzX1oXjj+XQjcPR2Izo3Nbgic3MhtKJydfTheCI1NmNr9TZ0d3hgdfXgdeJ2s6PiMrZjIPi2tnGhc/b3NKB3duB04Hg3IPh0NqMguyFttaM34zQjdHj3MmQk9XY2c2B3NuS38mZgsfh4I/hydPbxoqTjcrP38Le30DUhdDKxtrP1I2q1InVy4WN0djWyMreQObZztvYjODX0oHc0sjLlI29y83TypOTk8aNxdTY0I/YytzO1cyDjdHIydWRjJPn1+LJzNjV3dSNjtzV1YXhzMvRz8yMhuLXjdbN0YzR0sLiia/IltLbg9vV1NyQ3NPUgtzV4NeNydPbgcuFzs2DycjG1Y7m2Y3WzdGM5tbP0om0y4WU3IPJgdLNjtzG0I6F2c3d1sLRlYGsQODe1c2B0NqP6oWu0MmM39fSiOGJxcSO0NLRz4HR1YvYheDKypPfj9vG5M7Tg4TO18bNxYXOhdnU38eFv9TUlNSOyoHQgdvSxMuNhdmB4c7OxZGMtY/g1uDOgc6O3OCDqc/JjJPbypTVhdDN3dDK3NCBz4nYzoPbycqTk5PT0tjK3ozTzs/RzsWDgtLP0trGhbWUk8jO0IXP4eON2t3egc+J2M6DyYHQ2onZypmCztKM49XGjtDKyZSNy8jL0NLRk5PZ1ceF0tXh0oG914HEQOTS1c2Bx9GU6srS0IXj1dvZgc/XxYOX1crXiNjO2IyTx9KCuNTRluCBz4nOxI7WysaUgdLNjtzG0I6FtYzi4tPTiczRj+SJi7GB2OGS2IXY0NTjlY+uz9KJ1MuFlNyDzMLTz4nhzI3OztfRj+DJ05DUg47S38jagcnNjtbK0YLH0dLe38aOvMnIR+CJxIjOxtqJ1MiZgtLN2tjOxJqJqoOT4tvIiMzT25eTptvGhd/U1JTUjs3C0YPW18qIzc7XhZPY1ceM34zd0tfT24HHgdvMyMyBx9GG4tfSgrLN2tjOxJqJzsSO1srGlIGujJPo19KC0Nrb5o2i3M2B1ojSkNaIxcbag9zT1ILR1dfUjdTWzojWQNvO2c3ThdCB4cjSxoXO0dXc09OJtMuFlNyDyYHSzY7cxtCOhdnN3dbC0ZWBrEDg3tXNgdDaj+qFlauF3+Hh0oHZ19DaSY2q0cyB2NSFmtiNxsbaz9jbyI7Vys6FjdzLzYjYjI7Y29LUhdDN3dDG0onDyIbc28g="
 
-4. 
-    texto claro: 
-    chave: 
-    texto cifrado: 
+4. chave pequena
+    texto claro: "This must be a dream (Must be a dream, must be a dream) Baby, you must be a dream (Must be a dream, must be a dream) I don't wake in the morning We're forever entwined"
+    chave: "be" 
+    texto cifrado: "ts3L2ILS19jWhcTKgsaCydTKw9KCja/a1dmCx8eFw4XG18fGz5GC0tfY1oXEyoLGgsnUysPSi4WkxsTejoXb1NeFz9rV2YLHx4XDhcbXx8bPhYqy19jWhcTKgsaCydTKw9KOhc/a1dmCx8eFw4XG18fGz46CroLJ0dOJ2YLcw9DHhcvTgtnKyoLS0dfQztDMgrzHjNTKgsvR18fbx9eCytDZ2c7QysY="
 
-5.
-    texto claro: 
-    chave: 
-    texto cifrado: 
 
-6.
-    texto claro: 
-    chave: 
-    texto cifrado: 
+5. chave do tamanho do texto claro
+    texto claro: "joao"
+    chave: "Kaio"
+    texto cifrado: "1dDK3g=="
+
+
