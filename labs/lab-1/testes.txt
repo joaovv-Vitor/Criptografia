@@ -1,0 +1,32 @@
+Casos de Teste para a Cifra de Vigenère:
+
+1. Chave maior que o texto Claro
+
+    texto claro: Wave
+    chave: Musica Brasileira
+    texto cifrado: ¤ÖéÎ
+
+2. texto meio com uma chave pequena
+    texto claro: 
+    chave: 
+    texto cifrado: 
+
+3. texto longo
+    texto claro: Assim que o dia amanheceu Lá no mar alto da paixão Dava pra ver o tempo ruir Cadê você? Que solidão Esquecera de mim Enfim, de tudo o que há na terra Não há nada em lugar nenhum Que vá crescer sem você chegar Longe de ti tudo parou Ninguém sabe o que eu sofri Amar é um deserto e seus temores Vida que vai na sela dessas dores Não sabe voltar, me dá teu calor Vem me fazer feliz porque eu te amo Você deságua em mim, e eu, oceano E esqueço que amar é quase uma dor Só sei viver se for por você Enfim, de tudo o que há na terra Não há nada em lugar nenhum Que vá crescer sem você chegar Longe de ti tudo parou Ninguém sabe o que eu sofri Amar é um deserto e seus temores Vida que vai na sela dessas dores Não sabe voltar, me dá teu calor Vem me fazer feliz porque eu te amo Você deságua em mim, e eu, oceano E esqueço que amar é quase uma dor Só sei viver se for por você
+    chave: Oceano
+    texto cifrado: ÖØÊÛÀØÊÝ³ÌÆÏÜ°ÑÍÆÑÔÄ±BÝ¾ÒÂà°ÏÙÐÓ°ÕÂ×ç2Ò¥Ïå°ÕÓÏÅÈ×ÝÃÈÒÑÝÁØÎÓ²°ÇOäÞ²M¤¿ä´ØÐÚØ³FÔ³âÀØÊÄÓá°ÉÆÜ¸Ð¦ÜÕ¸ÐÒÔo×ÚÅÝ¾ÖÖÓ·DÏÏÃÈ×ÓÏFÔÖPoÑÆÅÏ´ÐÍãÖ°ÕÏÓÝ·ØÒ¿ä´ÛBÒÁÈØÄÓáoÖÊÎå¾ÆOÑ×´ÊÆÓ»¾ÑÌÆÓ´ÙÊãÄÇÔÞÐÁÒÚ¼Ø½ÊÚJÛÂÄÇÆÞoÔÚÆÔÄØÐÔá¸¦ÎÏáoLÖÛ³ÈØÆàã¾ÊáÔÄÖÕÓÜ¾ÕÊÔÅ¸ÇÆßä´ÛÂ×½ÄÔÓÛ°ÉÆáâ°ÖÅÝá´Ö¯QÞoÖÆÃÓÅÒÑÕÏá{ÒÆÓ0ÙÆã²ÄÑÐà¥ÈÒÛÔoÉÆÛÓáoÉÊÍ×éoÓÔÓßä´ÊÖã´ÆÎÝ¥ÒÈKÓ´ÖFÈãÐoÈÒÛØ¼ÆÔÄÐÑÔ°ÑÔ³´ÖÖÖÓV¾ÖÖÓ°ÐÆÓXoÔÚÂáÔoØÒÂÓ¾Õ´aÂÈÎäØÅÈ×áÔoÉÔÓß¾Õ×ÝÒ9ªÏÔØ¼ÅÓÃØÉÐÞoÔÚÆ×0ÓÂã´Õ×Â½2ÒÉO½ÄÉÂÔ¼ÑÖÕÐÁÓÆÜ×ÄÐ²ãÔoÙFÑá´ÖÈÆàÂÈÒäÞ²MÄÖÔ¶Ä×ºÞ½ÊÊÒÔo×Îâä³ÒÑÏá¾Ø¯×Ý¶ØNÎâ°ÅÊÝÀØÊÓäoÖÔÇàØo¤ÒÂà8ÚÎÓ´ÖÊÓâÞoÈÔÓäÂÙÆÛÞÁÈØÄØ³ÄÒãÔoÙÆÊÝ°ØÆÚÐoÇÊÔáÐÂÉÐàÔÂ³DÝÂÄÇÆå¾ÏÙÂàoÐÊÒPo×ÊÖÒ°ÏÔÓÅ´ÐÎÓµÄßÆàµÈÑÊè¿Ò×ÒãÔoÈÚâÔoÄÒÐÅ¾ÆOÒÔÂDÌÖÏ´ÐÎ×Ü{ÊÓä{ÔÄÓÐ½Ò¦ÔÂÔÚÆUÞoÔÚÆÐ¼Ä×WÀØÆÔÓÄÐÆÒÞÁ¸Tâ´Ì××å´ÕÔÓµÒ×ÞÞÁÛÐÑY
+
+4. 
+    texto claro: 
+    chave: 
+    texto cifrado: 
+
+5.
+    texto claro: 
+    chave: 
+    texto cifrado: 
+
+6.
+    texto claro: 
+    chave: 
+    texto cifrado: 

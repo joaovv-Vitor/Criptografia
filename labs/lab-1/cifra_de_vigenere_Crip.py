@@ -21,15 +21,22 @@
 # print("O caractere cifrado é: ", c)
 
 
-def encriptar(texto_claro, chave):
-    texto_encriptado = []
+import base64
+
+def criptar(texto_claro: str, chave: str) -> str:
+    texto_cifrado = []
     for i, c in enumerate(texto_claro):
         p = ord(c)
         k = ord(chave[i % len(chave)])
-        cifra = (p + k) % 256
-        texto_encriptado.append(chr(cifra))
-    return "".join(texto_encriptado)
-input_texto_claro = input("Digite o texto a ser cifrado: ")
-input_chave = input("Digite a chave de criptografia: ")
+        enc = (p + k) % 256
+        texto_cifrado.append(enc)
 
-print("Texto cifrado:", encriptar(input_texto_claro, input_chave))
+    texto_cifrado_bytes = bytes(texto_cifrado)
+    return base64.b64encode(texto_cifrado_bytes).decode()
+
+
+input_texto_claro = input("Digite o texto a ser cifrado: ")
+input_chave = input("Digite a chave de criptografia: ")                                 
+
+print("Texto cifrado:", criptar(input_texto_claro, input_chave))
+
